@@ -1,0 +1,10 @@
+# string-quotes.py
+'''
+In Python, single-quoted strings and double-quoted strings are the same. This
+PEP does not make a recommendation for this. Pick a rule and stick to it. When a
+string contains single or double quote characters, however, use the other one to
+avoid backslashes in the string. It improves readability.
+
+For triple-quoted strings, always use double quote characters to be consistent
+with the docstring convention in PEP 257.
+'''
